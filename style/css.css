@@ -1,0 +1,53 @@
+body{
+    margin: 0px; /*внешняя*/
+}
+
+.button{
+    display: inline;
+    border: 2px solid red; /*ширина*/
+    background-color: white;/*цвет фона*/
+    color: red;/*цвет текста*/
+    padding: 5px 10px 5px 10px;/*размеры*/
+    margin: 5px;  /*отступ*/
+    border-radius: 10px;/*скругление*/
+    text-decoration: none;
+}
+.button:hover{
+
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.buttonOK{
+    display: inline;
+    border: 2px solid green; /*ширина*/
+    background-color: white;/*цвет фона*/
+    color: green;/*цвет текста*/
+    padding: 5px 10px 5px 10px;/*размеры*/
+    margin: 5px;  /*отступ*/
+    border-radius: 10px;/*скругление*/
+    text-decoration: none;
+}
+.buttonOK:hover{
+    background-color: green;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button3{
+    display: inline;
+    border: 2px solid grey; /*ширина*/
+    background-color: white;/*цвет фона*/
+    color: grey;/*цвет текста*/
+    padding: 5px 10px 5px 10px;/*размеры*/
+    margin: 5px;  /*отступ*/
+    border-radius: 10px;/*скругление*/
+    text-decoration: none;
+}
+.button3:hover{
+    background-color: grey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
